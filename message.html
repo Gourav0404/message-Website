@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="messgage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message-box"> 
+            <h1>Message Me</h1> 
+            <div class="input-field">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="19a4c457-454f-4114-8c90-1b41cc942ef4">
+                    <div class="input-box">
+                        <input type="text" placeholder="Name" name="first_name">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Email ID" name="email">
+                    </div>
+                    <div class="input-box">
+                        <input type="message" placeholder="Message Me" name="mssg">
+                    </div>
+                    <div class="sumbit-btn">
+                        <button>
+                            sumbit
+                        </button>
+                    </div>
+                   </form>
+            </div>
+        </div>
+    </div>
+    <script src="message.js"></script>
+</body>
+</html>
